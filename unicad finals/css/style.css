@@ -1,0 +1,1577 @@
+
+@media screen and (max-width: 430px){
+    body{
+        background-color: #A0153E;
+        color: white;
+        font-family: "JetBrains Mono", monospace;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: lighter;
+    }
+
+    .textb-email input, .textb-password input{
+        position: absolute;
+        width: 212px;
+        left: calc(50% - 212px/2 + 5px);
+        top: 382px;
+        background: #00224D;
+        border-radius: 19px;
+        border: none;
+        color: white;
+        padding: 15px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .textb-password input{
+        position: absolute;
+        width: 212px;
+        padding: 15px;
+        left: calc(50% - 212px/2 + 5px);
+        top: 440px;
+        background: #00224D;
+        border-radius: 19px;
+        border: none;
+        color: white;
+    }
+
+    .textb-email img{ 
+        position: absolute;
+        width: auto;
+        height: 15px;
+        left: 320px;
+        top: 397px;
+    }
+
+    .textb-password img{
+        position: absolute;
+        width: auto;
+        height: 15px;
+        left: 320px;
+        top: 455px;        
+    }
+    .login a{
+        position: absolute;
+        width: auto;
+        height: 15px;
+        left: calc(48% - 89px/2 + 8.5px);
+        top: 500px;
+        font-family: "JetBrains Mono", monospace;
+        color: #FFFFFF;
+        text-decoration: none;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    ::placeholder{
+        color: white;
+        font-family: "JetBrains Mono", monospace;
+    }
+    .login button{
+        position: absolute;
+        width: 240px;
+        padding: 15px;
+        left: 110px;
+        top: 535px;
+        background: #00224D;
+        border-radius: 19px;
+        border: none;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        color: white;
+        font-family: "JetBrains Mono", monospace;
+        cursor: pointer;
+    }
+    .logo img{
+        position: absolute;
+        width: 183px;
+        height: 144px;
+        left: calc(53% - 183px/2 + 0.5px);
+        top: 200px;
+    }
+    .login{
+        position: relative;
+        right: 10px;
+    }
+    .Signup{
+        position: fixed;
+        width: 470px;
+        height: 578px;
+        left: -26px;
+        top: 351px;
+        background: #FF204E;
+        box-shadow: 0px -4px 30px rgba(0, 0, 0, 0.4);
+        border-radius: 110px 110px 0px 0px;
+    }
+    .Signup form {
+        position: absolute;
+        width: 50%;
+        padding: 20px;
+        border-radius: 5px;
+        margin: 100px;
+        top: -70px;
+    }
+    .Signup input, button, select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        background: #00224D;
+        border-radius: 19px;
+        border: none;
+        color: white;
+    }
+    .birthday {
+        display: flex;
+        width: 107%;
+    }
+    .birthday input {
+        flex: 1;
+        margin-right: 5px;
+    }
+    label {
+        display: block;
+        margin: 10px;
+    }
+    .Signup select{
+        position: relative;
+        margin: 10px;
+        color: white;
+        width: 107%;
+        right: 10px;
+    }
+    .Signup button {
+        background-color: #00224D;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        width: 107%;
+    }
+    .Signup  ::placeholder{
+        color: white;
+        font-family: "JetBrains Mono", monospace;
+    }
+    .create-back a img{
+        position: absolute;
+        width: 183px;
+        height: 144px;
+        left: calc(53% - 183px/2 + 0.5px);
+        top: 180px;
+    }
+    .nav-background{
+        position: relative;
+        width: 430.50px;
+        height: 150px;
+        right: 8px;
+        top: -10px;
+        background: #00224D;
+        border-radius:  0px 0px 12px 12px;
+    }
+    .navbar {
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        margin: 0px;
+        position: absolute;
+        top: 20px;
+    }
+
+    .navbar img {
+        height: 30px;
+    }
+
+    .search-bar {
+        flex: 1;
+        margin: 0 20px;
+    }
+
+    .search-bar input {
+        width: 100%;
+        height: 8px;
+        padding: 10px;
+        border: none;
+        background: #00224D;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 8.6px rgba(0, 0, 0, 0.5);
+        border-radius: 12px;
+        color: white;
+        font-family: "JetBrains Mono", monospace;
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-links a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-btn {
+        cursor: pointer;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background: #00224D;
+        min-width: 120px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        z-index: 1; /* Updated z-index value */
+        right: 0;
+        width: 100px;
+        height: auto;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    .dropdown-content a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        background: #A0153E;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 11px;
+        font-family: "JetBrains Mono", monospace;
+        padding: 10px;
+        margin: 8px;
+    }
+    
+    .dropdown-content a:hover {
+        background: #00224D;
+        font-family: "JetBrains Mono", monospace;
+        transition: 1ms;
+    }
+    .selectlist a{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-family: "JetBrains Mono", monospace;
+        padding: 10px 10px;
+        position: absolute;
+        right: 40px;
+        top: 80px;
+    }
+    .handle{
+        position: absolute;
+        width: 169.57px;
+        height: 19px;
+        right: calc(50% - 169.57px/2 - 87.37px);
+        top: 109px;
+        background: #00224D;
+        border-radius: 14px;
+        padding-left: 22px;
+        padding-right: 20px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .handle:hover{
+        background-color: #FF204E;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .subject{
+        position: absolute;
+        width: 169.57px;
+        height: 19px;
+        left: calc(45% - 169.57px/2 - 87.37px);
+        top: 109px;
+        background-color: #00224D;
+        border-radius: 14px 0px 0px 14px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .subject:hover{
+        background-color: #FF204E;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .background-1{
+        position: absolute;
+        width: 430px;
+        height: 200px;
+        left: 0px;
+        top: 105px;
+        background: #A0153E;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+    }
+    .background-1 b{
+        position: absolute;
+        width: 127px;
+        height: 18px;
+        left: 24px;
+        top: 60px;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+/* diri dapita mao ni ang css code sa date and time  */
+    #datetime{
+        position: absolute;
+        width: 163px;
+        height: 16px;
+        left: 162px;
+        top: 62px;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .background-1 button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 5px;
+        gap: 10px;
+        position: absolute;
+        width: 70px;
+        height: 30px;
+        left: 344px;
+        top: 57px;
+        font-family: 'JetBrains Mono';
+        background: #00224D;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2), 0px 1px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 14px;
+        cursor: pointer;
+    }
+    .background-1 input{
+        position: absolute;
+        width: 392px;
+        height: 58px;
+        left: calc(50% - 392px/2 - 2px);
+        top: 120px;
+        font-family: 'JetBrains Mono';
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 4px;
+        border: none;
+        text-align: justify;
+        padding: 5px;
+        color: white;
+    }
+    .background-1 select{
+        position: absolute;
+        height: 14px;
+        left: 26px;
+        top: 85px;
+        background-color: #00224D;
+        font-family: 'JetBrains Mono';
+    }
+    /* Style the dropdown container */
+    #announcementType {
+        font-size: 16px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border: none;
+        width: 50px;
+        color: white;
+    }
+    
+    /* Style the dropdown options */
+    #announcementType option {
+        font-size: 16px;
+        background-color: #00224D;
+        color: white;
+        font-size: small;
+    }
+    /* Style the selected option */
+    #announcementType option:checked {
+        background-color: #e0e0e0;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 18px 19px;
+        gap: 10px;
+        position: absolute;
+        width: 350px;
+        height: 250px;
+        left: 20px;
+        top: 340px;
+        background: #A0153E;
+        border-width: 0px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+    }
+    .container-content p{
+        position: absolute;
+        width: 330px;
+        height: 186px;
+        left: 19px;
+        top: 46px;
+        font-family: 'JetBrains Mono';
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 14px;
+        text-align: justify;
+        padding: 10px 10px;
+    }
+
+    .container-1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 18px 19px;
+        gap: 10px;
+        position: absolute;
+        width: 350px;
+        height: 220px;
+        left: 20px;
+        top: 650px;
+        background: #A0153E;
+        border-width: 0px 1px;
+        border-style: solid;
+        border-color: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+    }
+    .container-content-1 p{
+        position: absolute;
+        width: 330px;
+        height: 160px;
+        left: 19px;
+        top: 46px;
+        font-family: 'JetBrains Mono';
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 14px;
+        text-align: justify;
+        padding: 10px 10px;
+    }
+    label{
+        position: absolute;
+        width: 87px;
+        height: 32px;
+        left: 37px;
+        top: 310px;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .subjectlist{
+    position: absolute;
+    width: 430px;
+    height: 562px;
+    left: 0px;
+    top: 370px;
+    background: #A0153E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 33px 33px 0px 0px;
+    }
+    .subjectlist a {
+        text-decoration: none;
+    }
+    .content{
+        background-image: url(/img/hci.jpeg);
+        background-size: cover;
+        position: absolute;
+        height: 100px;
+        width: 180px;
+        left: 20px;
+        top: 20px;
+        border-radius: 14px;
+    }
+    .content b{
+        position: absolute;
+        left: 3.86%;
+        right: 62.21%;
+        top: 65.68%;
+        bottom: 9.77%;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        color: #FFFFFF;
+        width: 500px;
+    }
+    .clickable-container img{
+        position: absolute;
+        left: 65.53%;
+        top: 12.78%;
+        bottom: 42.86%;
+        border-radius: 14px;
+        height: auto;
+        width: 50px;
+    }
+
+    .clickable-container-1 img{
+        position: absolute;
+        left: 65.53%;
+        top: 12.78%;
+        bottom: 42.86%;
+        border-radius: 14px;
+        height: auto;
+        width: 50px;
+    }
+    .content-1{
+        background-image: url(/img/hci.jpeg);
+        background-size: cover;
+        position: absolute;
+        height: 100px;
+        width: 180px;
+        left: 220px;
+        top: 20px;
+        border-radius: 14px;
+    }
+    .content-1 b{
+        position: absolute;
+        left: 3.86%;
+        right: 62.21%;
+        top: 65.68%;
+        bottom: 9.77%;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        color: #FFFFFF;
+        width: 500px;
+    }
+
+    .clickable-container-2 img{
+        position: absolute;
+        left: 65.53%;
+        top: 12.78%;
+        bottom: 42.86%;
+        border-radius: 14px;
+        height: auto;
+        width: 50px;
+    }
+    .content-2{
+        background-image: url(/img/hci.jpeg);
+        background-size: cover;
+        position: absolute;
+        height: 100px;
+        width: 180px;
+        left: 20px;
+        top: 140px;
+        border-radius: 14px;
+    }
+    .content-2 b{
+        position: absolute;
+        left: 3.86%;
+        right: 62.21%;
+        top: 65.68%;
+        bottom: 9.77%;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        color: #FFFFFF;
+        width: 500px;
+    }
+
+    .clickable-container-3 img{
+        position: absolute;
+        left: 65.53%;
+        top: 12.78%;
+        bottom: 42.86%;
+        border-radius: 14px;
+        height: auto;
+        width: 50px;
+    }
+    .content-3{
+        background-image: url(/img/hci.jpeg);
+        background-size: cover;
+        position: absolute;
+        height: 100px;
+        width: 180px;
+        left: 220px;
+        top: 140px;
+        border-radius: 14px;
+    }
+    .content-3 b{
+        position: absolute;
+        left: 3.86%;
+        right: 62.21%;
+        top: 65.68%;
+        bottom: 9.77%;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        color: #FFFFFF;
+        width: 500px;
+    }
+
+    
+    .clickable-container-4 img{
+        position: absolute;
+        left: 65.53%;
+        top: 12.78%;
+        bottom: 42.86%;
+        border-radius: 14px;
+        height: auto;
+        width: 50px;
+    }
+    .content-4{
+        background-image: url(/img/hci.jpeg);
+        background-size: cover;
+        position: absolute;
+        height: 100px;
+        width: 180px;
+        left: 20px;
+        top: 260px;
+        border-radius: 14px;
+    }
+    .content-4 b{
+        position: absolute;
+        left: 3.86%;
+        right: 62.21%;
+        top: 65.68%;
+        bottom: 9.77%;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        color: #FFFFFF;
+        width: 500px;
+    }
+
+
+    .clickable-container-5 img{
+        position: absolute;
+        left: 65.53%;
+        top: 12.78%;
+        bottom: 42.86%;
+        border-radius: 14px;
+        height: auto;
+        width: 50px;
+    }
+    .content-5{
+        background-image: url(/img/hci.jpeg);
+        background-size: cover;
+        position: absolute;
+        height: 100px;
+        width: 180px;
+        left: 220px;
+        top: 260px;
+        border-radius: 14px;
+    }
+    .content-5 b{
+        position: absolute;
+        left: 3.86%;
+        right: 62.21%;
+        top: 65.68%;
+        bottom: 9.77%;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        color: #FFFFFF;
+        width: 500px;
+    }
+
+    .clickable-container-6 img{
+        position: absolute;
+        left: 65.53%;
+        top: 12.78%;
+        bottom: 42.86%;
+        border-radius: 14px;
+        height: auto;
+        width: 50px;
+    }
+    .content-6{
+        background-image: url(/img/hci.jpeg);
+        background-size: cover;
+        position: absolute;
+        height: 100px;
+        width: 180px;
+        left: 220px;
+        top: 380px;
+        border-radius: 14px;
+    }
+    .content-6 b{
+        position: absolute;
+        left: 3.86%;
+        right: 62.21%;
+        top: 65.68%;
+        bottom: 9.77%;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        color: #FFFFFF;
+        width: 500px;
+    }
+
+
+    .clickable-container-7 img{
+        position: absolute;
+        left: 65.53%;
+        top: 12.78%;
+        bottom: 42.86%;
+        border-radius: 14px;
+        height: auto;
+        width: 50px;
+    }
+    .content-7{
+        background-image: url(/img/hci.jpeg);
+        background-size: cover;
+        position: absolute;
+        height: 100px;
+        width: 180px;
+        left: 20px;
+        top: 380px;
+        border-radius: 14px;
+    }
+    .content-7 b{
+        position: absolute;
+        left: 3.86%;
+        right: 62.21%;
+        top: 65.68%;
+        bottom: 9.77%;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        color: #FFFFFF;
+        width: 500px;
+    }
+
+    .hci{
+        position: absolute;
+        width: 392px;
+        height: 86px;
+        left: 17px;
+        top: 320px;
+        background-size: cover;
+        background:url(/img/hcicover.png);
+        border-radius: 14px;
+    }
+    .hci1{
+        position: absolute;
+        width: 175px;
+        height: 26px;
+        left: 20px;
+        top: 10px;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .hci2{
+        position: absolute;
+        width: 500px;
+        height: 26px;
+        left: 20px;
+        top: 50px;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .instruction{
+        box-sizing: border-box;
+        position: absolute;
+        width: 402px;
+        height: 424px;
+        left: 11px;
+        top: 420px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 14px;
+    }
+    .instruction input[type="text"] {
+        width: 90%;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: transparent;
+        border: none;
+        color: white;
+        margin: 20px;
+        height: 90%;
+        font-family: 'JetBrains Mono';
+        text-align: justify;
+    }
+
+    .upload-btn-wrapper{
+        position: absolute;
+        width: 50px;
+        left: 15px;
+        top: 865px;
+    }
+    .upload-btn-wrapper input{
+        width: 180%;
+        height: auto;
+    }
+
+    .option {
+        font-family: 'JetBrains Mono';
+        position: absolute;
+        width: 90px;
+        height: 26px;
+        left: 65px;
+        top: 858px;
+      }
+      .option select {
+        padding: 5px;
+        font-size: 16px;
+        border-radius: 5px;
+        width: 100px;
+        font-family: 'JetBrains Mono';
+        background: #A0153E;
+        box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+      }
+      
+      .option option {
+        background-color: #00224D;
+        background: #A0153E;
+        box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+        width: 100px;
+        font-family: 'JetBrains Mono';
+      }
+      .option button{
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 20px;
+        position: absolute;
+        width: 90px;
+        height: 35px;
+        left: 120px;
+        top: -1px;
+        cursor: pointer;
+        background: #A0153E;
+        box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+      .list{
+        position: absolute;
+        width: 437px;
+        height: 572px;
+        left: 0px;
+        top: 360px;
+        background: #A0153E;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 33px 0px 0px 0px;
+      }
+      .list input{
+        position: absolute;
+        width: 128px;
+        left: 17px;
+        top: calc(26% - 24px/2 - 124px);
+      }
+      .section{
+        font-family: 'JetBrains Mono';
+      }
+      .sec{
+        position: relative;
+        top: -41px;
+        font-size: 12px;
+        left: 168px;
+      }
+        .section{
+            position: absolute;
+            width: 128px;
+            left: 17px;
+            top: calc(26% - 24px/2 - 124px);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            position: absolute;
+            top: 40px;
+        }
+
+        th {
+            width: 100px;
+            padding: 9px;
+            text-align: left;
+        }
+        td{
+            position: absolute;
+            width: 500px;
+            padding: 8px;
+            text-align: center;
+
+        }
+
+        th.OfferNumber {
+            position: absolute;
+            width: 500px;
+        }
+        .arsenal{
+            position: absolute;
+            left: -136%;
+            top: 5px;
+            font-size: 12px;
+        }
+        .duarte{
+            position: absolute;
+            left: -142%;
+            font-size: 13px;
+        }
+        .sectop{
+            position: absolute;
+            left: -35%;
+            top: 5px;
+            font-size: 12px;
+        }
+        .sectop1{
+            position: absolute;
+            left: -31%;
+            font-size: 13px;
+        }
+        .blo2{
+            position: absolute;
+            left: 10%;
+            font-size: 13px;
+        }
+        .blo{
+            position: absolute;
+            left: 10%;
+            top: 5px;
+            font-size: 12px;
+        }
+        .of{
+            position: absolute;
+            left: 70%;
+            top: 5px;
+            font-size: 12px;
+        }
+        .of1{
+            position: absolute;
+            left: 70%;
+            font-size: 13px;
+        }
+        .back{
+            position: absolute;
+            width: 84px;
+            height: 26px;
+            left: 10px;
+            top: 55px;
+            font-family: 'JetBrains Mono';
+        }
+        .back p{
+            position: absolute;
+            width: 84px;
+            height: 26px;
+            left: 50.75px;
+            top: -5px;
+            font-size: larger;
+        }
+        .back img{
+            width: 50px;
+            height: auto;
+        }
+        .balisi img{
+            position: absolute;
+            width: 150px;
+            height: auto;
+            left: calc(60% - 228px/2);
+            top: 120px;
+            border-radius: 14px;
+            background: linear-gradient(227.03deg, rgba(43, 43, 43, 0.1) 25.13%, rgba(43, 43, 43, 0.1) 70.39%);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 40px rgba(0, 0, 0, 0.25);
+        }
+        .balisi h2{
+            position: absolute;
+            width: 500px;
+            height: 26px;
+            left: calc(52% - 180px/2);
+            top:270px;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-size: 20px;
+        }
+        .balisi p{
+            position: absolute;
+            width: 274px;
+            height: 16px;
+            left: calc(50% - 274px/2);
+            top: 310px;
+            font-family: 'JetBrains Mono';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 16px;
+        }
+        .balisi .studentimg{
+            width: 130px;
+            height: auto;
+        }
+        .balisi .stu-name{
+            position: absolute;
+            left: 110px;
+            top: 250px;
+        }
+        .balisi .stu-name2{
+            position: absolute;
+            left: 105px;
+            top: 289px;
+        }
+        .scanner{
+            position: absolute;
+            width: 329px;
+            height: 265px;
+            left: 50px;
+            top: 665px;
+            background: #A0153E;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 40px 40px 0px 0px;
+        }
+        .scanner img{
+            position: absolute;
+            width: 220px;
+            height: auto;
+            left: 60px;
+            top: 20px;
+            cursor: pointer;
+        }
+        .scan{
+            position: absolute;
+            width: 93px;
+            height: 21px;
+            left: calc(47% - 93px/2 + 6.5px);
+            top: 620px;
+        }
+        .addstudent img{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            left: calc(46% - 82px/2);
+            top: calc(48% - 82px/2 + 52px);
+        }
+        .calendar{
+            position: absolute;
+            width: 212px;
+            height: 197px;
+            left: 220px;
+            top: 380px;
+            background: #A0153E;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), #A0153E;
+            box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25), 0px 3px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 40px 0px 0px 40px ;
+            font-size: 12px;
+            font-family: 'JetBrains Mono';
+        }
+        .month{
+            position: absolute;
+            width: 80px;
+            height: 15px;
+            background: #00224D;
+            border-radius: 4px;
+            top: 4px;
+            left: 60px;
+            text-align: center;
+            font-family: 'JetBrains Mono';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 15px;
+            padding: 5px 5px;
+        }
+        .calendar th {
+            padding: 4px;
+            cursor: pointer;
+        }
+        .calendar  th:hover {
+            background-color: #00224D;
+            width: 10px;
+            height: 10px;
+            border-radius: 100px;
+            text-align: center;
+        }
+        .cal{
+            position: absolute;
+            width: 96px;
+            height: 26px;
+            left: 280px;
+            top: 335px;
+        }
+        .notes{
+            position: absolute;
+            width: 212px;
+            height: 197px;
+            left: -67px;
+            top: 380px;
+            background: #A0153E;
+            box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25), 0px 3px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 0px 40px 40px 0px;
+        }
+        .notes input{
+            border: none;
+            background-color: transparent;
+            color: white;
+            position: absolute;
+            width: 121px;
+            height: 170px;
+            left: 75px;
+            top: 10px;
+            text-align: justify;
+            border-radius: 0px 40px 40px 0px;
+        }
+        .not{
+            position: absolute;
+            width: 96px;
+            height: 26px;
+            left: 8px;
+            top: 335px;
+        }
+        .add input{
+            position: absolute;
+            width: 370px;
+            left: 20px;
+            top: calc(50% - 24px/2 - 334px);
+        }
+        .adli{
+            position: absolute;
+            width: 391px;
+            height: 682px;
+            left: calc(50% - 391px/2 + 0.5px);
+            top: 165px;
+            background: #A0153E;
+            box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 14px;
+        }
+        .adli1{
+            position: absolute;
+            width: 187px;
+            height: 641px;
+            left: 204px;
+            top: 40px;
+            background: #00224D;
+            border-radius: 4px 0px 14px 0px;
+        }
+        .adli button{
+            position: absolute;
+            width: 57px;
+            height: 32px;
+            left: 335px;
+            bottom: -50px;
+            background-color: #A0153E;
+            cursor: pointer;
+            box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        .adli button:hover{
+            background-color: #00224D;
+        }
+        .addsec{
+            position: relative;
+            top: -75px;
+            font-size: 12px;
+            left: 168px;
+        }
+        .studentname{
+            position: absolute;
+            left: -168px;
+        }
+        .blocks{
+            position: absolute;
+            left: 27px;
+        }
+        .cour{
+            position: absolute;
+            left: 85px;
+        }
+        .year{
+            position: absolute;
+            left: 150px;
+        }
+        .arsenal-1{
+            position: absolute;
+            left: -136%;
+            top: -30px;
+            font-size: 12px;
+        }
+        .duarte-1{
+            position: absolute;
+            left: -146%;
+            top: -10px;
+            font-size: 12px;
+        }
+        .settings-icon{
+            position: absolute;
+            width: auto;
+            height: 140px;
+            left: calc(55% - 183px/2 + 0.5px);
+            top: 125px;
+        }
+        .settings-choices {
+            position: absolute;
+            width: 430px;
+            height: 541px;
+            left: 0px;
+            top: 290px;
+            background: #00224D;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 79px 0px 0px 0px;
+            padding: 50px 50px;
+        }
+        .set-choices a {
+            color: white;
+            text-decoration: none;
+            display: flex; 
+            align-items: center;
+            margin: 20px;
+            font-family: 'JetBrains Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 27px;
+            text-align: justify;
+        }
+        
+        .set-choices {
+            position: absolute;
+            text-align: center;
+        }
+        
+        .set-choices img {
+            margin-right: 10px;
+            max-height: 100px; 
+            max-width: 100px;
+        }
+        .changeprof img{
+            position: absolute;
+            width: 150px;
+            height: auto;
+            left: calc(60% - 228px/2);
+            top: 120px;
+            border-radius: 14px;
+            background: linear-gradient(227.03deg, rgba(43, 43, 43, 0.1) 25.13%, rgba(43, 43, 43, 0.1) 70.39%);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 40px rgba(0, 0, 0, 0.25);
+        }
+        .update-info {
+            position: absolute;
+            width: 330px;
+            height: 541px;
+            left: 0;
+            top: 290px;
+            background: #00224D;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 79px 0 0 0;
+            padding: 50px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .update-info input {
+            background-color: #00224D;
+            border: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+            width: 80%;
+            margin: 30px;
+            color: white;
+        }
+        .update-info label{
+            width: 200px;
+            height: 20px;
+            font-family: 'JetBrains Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 20px;
+            color: rgba(255, 255, 255, 0.5);
+            top: 20px;
+            margin: 30px;
+            left: 50px;
+            position: absolute;
+        }
+        .update-info b{
+            width: 200px;
+            height: 20px;
+            font-family: 'JetBrains Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 20px;
+            color: rgba(255, 255, 255, 0.5);
+            top: 90px;
+            margin: 30px;
+            left: 50px;
+            position: absolute;
+        }
+        .update-info .lrn {
+            width: 200px;
+            height: 20px;
+            font-family: 'JetBrains Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 20px;
+            color: rgba(255, 255, 255, 0.5);
+            top: 160px;
+            margin: 30px;
+            left: 50px;
+            position: absolute;
+        }
+        .update-info .lrn-1{
+            position: absolute;
+            top: 190px;
+            width: 80%;
+            margin: 30px;
+            color: white;
+
+        }
+        .update-info .line-bot{
+            width: 62%;
+            height: 0px;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            flex: none;
+            order: 8;
+            align-self: stretch;
+            flex-grow: 0;
+            position: absolute;
+            top: 250px;
+            left: 80px;
+        }
+        .file-upload {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+            cursor: pointer;
+            padding: 10px 15px;
+            background-image: url(/img/icon/edit.png);
+            border-radius: 5px;
+            height: 11px;
+            left: 266px;
+            top: 235px;
+          }
+          
+          .file-upload input[type=file] {
+            position: absolute;
+            font-size: 100px;
+            opacity: 0;
+            right: 0;
+            top: 0;
+          }
+          
+
+          .file-upload-1 {
+            position: absolute;
+            overflow: hidden;
+            display: inline-block;
+            cursor: pointer;
+            padding: 10px 20px;
+            background-image: url(/img/icon/upload.png);
+            border-radius: 5px;
+            height: 25px;
+            left: 15px;
+            top: 850px;
+          }
+          
+          .file-upload-1 input[type=file] {
+            position: absolute;
+            font-size: 100px;
+            opacity: 0;
+            right: 0;
+            top: 0;
+          }
+          .passbut{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            left: calc(50% - 136px/2);
+            top: 120px;
+          }
+          .passcha{
+            position: fixed;
+            width: 332px;
+            height: 541px;
+            left: 0;
+            top: 290px;
+            background: #00224D;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 79px 0 0 0;
+            padding: 50px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+
+          .textb input , .textb-1 input{
+            background-color: #00224D;
+            border: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+            width: 80%;
+            margin: 20px;
+            color: white;
+            position: flex;
+          }
+          .shows div{
+            cursor: pointer;
+            position: absolute;
+            left: 65.92%;
+            right: 02.1%;
+            top: 10.3%;
+            bottom: 13.43%;
+            font-size: 20px;
+          }
+          .show-password {
+            color: #A0153E;
+          }
+          .textb-1 {
+            margin-bottom: 20px;
+        }
+        
+        .password-input-container {
+            display: flex;
+            align-items: center;
+        }
+        
+        .shows-1 {
+            position: absolute;
+            left: 280px;
+            font-size: 20px;
+        }
+        .cur , .cur-1{
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.5);
+        width: 500px;
+        }
+        .cur{
+        position: absolute;
+        left: 27%;
+        right: 56.89%;
+        top: 5%;
+        bottom: 70.15%;
+        }
+        .cur-1{
+        position: absolute;
+        left: 27%;
+        right: 56.89%;
+        top: 15%;
+        bottom: 70.15%;
+        }
+        .textb-1 button{
+            position: absolute;
+            left: 235px;
+            background: #A0153E;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 16px;
+            width: 70px;
+            cursor: pointer;
+            font-family: 'JetBrains Mono';
+            font-size: 12px;
+        }
+        .textb-1 button:hover{
+            background-color: #00224D;
+        }
+        .appsinfo{
+            position: fixed;
+            width: 430px;
+            height: 713px;
+            left: 0px;
+            top: 120px;
+            background: #00224D;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 79px 0 0 0;
+            padding: 50px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .uninfo{
+            position: absolute;
+            width: 173px;
+            height: 48px;
+            left: calc(40% - 173px/2 + 10.5px);
+            top: 20px;
+            font-family: 'JetBrains Mono';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 48px;
+        }
+        .apip{
+            position: absolute;
+            width: 345px;
+            height: 60px;
+            left: 60px;
+            top: 100px;
+            font-family: 'JetBrains Mono';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 21px;
+            text-align: center;
+        }
+        .proinfo{
+            position: absolute;
+            width: 345px;
+            height: 60px;
+            left: 60px;
+            top: 200px;
+            font-family: 'JetBrains Mono';
+            font-weight: 300;
+            font-size: 12px;
+            text-align: justify;
+        }
+
+        .contact a{
+            position: absolute;
+            text-decoration: none;
+            color: white;
+            left: 142px;
+            top: 462px;
+            font-size: 12px;
+        }
+        .contact p{
+            position: absolute;
+            left: 60px;
+            top: 450px;
+            font-size: 12px;
+        }
+
+
+/* choices css */
+        .choi{
+            position: absolute;
+            width: 252px;
+            height: 132px;
+            left: calc(54% - 252px/2);
+            top: calc(50% - 132px/2);
+        }
+        .choi a{
+            text-decoration: none;
+            color: white;
+            font-family: 'JetBrains Mono';
+            padding: 6px 67px;
+            justify-content: center;
+            margin: 20px;
+            background: #00224D;
+            border-radius: 19px;
+        }
+        .choi a:hover{
+            background:#A0153E;
+        }
+        .stu{
+            position: absolute;
+            left: calc(50% - 252px/2);
+            top: calc(70% - 132px/2);
+        }
+
+        
+       
+        
+}
+

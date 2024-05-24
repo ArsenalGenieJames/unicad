@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href= "img/logo/app icon home.png" type="logo"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <title>Sign Up</title>
+</head>
+<body>
+
+<div class="create-back">
+    <a href="login.html">
+        <img src="img/officiallogo.svg" alt="logo">
+    </a>
+</div>
+
+    <div class="Signup">
+        <form>
+            <input type="text" placeholder="Name" required><br>
+            <input type="text" placeholder="Last Name" required><br>
+            <input type="email" placeholder="Email" required><br>
+            <input type="password" placeholder="Password" required><br>
+            <input type="number" id="age" name="age" placeholder="Age" max="65" required>
+
+
+            <div class="birthday">
+                <input type="number" id="month" name="month" min="1" max="12" placeholder="Month" required>
+                <input type="number" id="day" name="day" min="1" max="31" placeholder="Day" required>
+                <input type="number" id="year" name="year" min="1900" max="2022" placeholder="Year" required>
+            </div>
+
+            <select>
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+            </select>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>

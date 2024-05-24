@@ -1,0 +1,1186 @@
+@media screen and (max-width: 430px){
+    body{
+        background-color: #A0153E;
+        color: white;
+        font-family: "JetBrains Mono", monospace;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: lighter;
+    }
+     /* Student area Css Code nani diri dapita ha */
+     .stuho{
+        position: absolute;
+        width: 435px;
+        height: 128px;
+        right: -5px;
+        top: -38px;
+        background: #00224D;
+        border-radius: 0px 0px 12px 12px;
+    }
+    .stuoh {
+        display: inline-block;
+        margin: 10px;
+        position: absolute;
+        top: 50px;
+    }
+    .stuoh a {
+        text-decoration: none;
+    }
+    .stuoh img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .search-bar {
+        flex: 1;
+        margin: 10px;
+        position: absolute;
+        width: 70px;
+        top: 5px;
+        left: 60px;
+    }
+    .studentlogo{
+        position: absolute;
+    }
+
+    .search-bar input {
+        width: 100%;
+        height: 8px;
+        padding: 10px;
+        border: none;
+        background: #00224D;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 8.6px rgba(0, 0, 0, 0.5);
+        border-radius: 12px;
+        color: white;
+        font-family: "JetBrains Mono", monospace;
+    }
+    .subject { 
+        position: absolute; 
+        display: inline-block; 
+        margin: 10px; 
+        left: 152px;
+        top: -1px;
+    } 
+    .subject img {
+        width: 50px; 
+        height: 50px; 
+        margin-right: 5px;
+     } 
+    .dropdown-content-subject { 
+        display: none; 
+        position: absolute; 
+        background: #00224D;
+        min-width: 160px; 
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+        z-index: 1; 
+        right: 0px;
+        padding: 10px;
+        border-radius: 5px;
+    } 
+    .dropdown-content-subject a { 
+        color: white;
+        text-decoration: none;
+        display: block;
+        background: #A0153E;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 11px;
+        font-family: "JetBrains Mono", monospace;
+        padding: 10px;
+        margin: 8px;
+        text-align: center;
+    } .dropdown-content-subject a:hover { 
+        background-color: #00224D;
+    } .subject:hover .dropdown-content-subject {
+         display: block; 
+    }
+
+
+
+    .nav-links-student{
+        position: relative; 
+        display: inline-block; 
+        margin: 10px; 
+        left: 195px;
+        top: 8px;
+    }
+    .nav-links-student a{
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: small;
+    }
+
+    .dropdown-settings { 
+        position: absolute; 
+        display: inline-block; 
+        margin: 10px; 
+        left: 365px;
+        top: 3px;
+    } 
+    .dropdown-settings img {
+        width: 38px; 
+        height: auto; 
+        margin-right: 5px;
+     } 
+    .dropdown-content-settings { 
+        display: none; 
+        position: absolute; 
+        background: #00224D;
+        min-width: 160px; 
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+        z-index: 1; 
+        right: 0px;
+        padding: 10px;
+        border-radius: 5px;
+    } 
+    .dropdown-content-settings a { 
+        color: white;
+        text-decoration: none;
+        display: block;
+        background: #A0153E;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 11px;
+        font-family: "JetBrains Mono", monospace;
+        padding: 10px;
+        margin: 8px;
+        text-align: center;
+    } .dropdown-content-settings a:hover { 
+        background-color: #00224D;
+    } .dropdown-settings:hover .dropdown-content-settings {
+         display: block; 
+    }
+    .recentsub{
+        position: absolute;
+        width: 398px;
+        height: 140px;
+        left: 16px;
+        top: 118px;
+        background: linear-gradient(180deg, #A0153E 27.3%, #00224D 27.4%);
+        filter: drop-shadow(0px -1px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius:14px 14px 14px 14px;
+    }
+    .recentsub p{
+        position: fixed;
+        left: 16px;
+        top: -12px;
+    }
+    .accsub{
+        position: absolute;
+        top: 38px;
+        left: -9px;
+    }
+    .accsub-1 img{
+        position: absolute;
+        left: 58.53%;
+        top: 8.78%;
+        bottom: 42.86%;
+        border-radius: 14px;
+        height: auto;
+        width: 40px;
+    }
+    .accsub-1 b{
+        position: absolute;
+        left: 8.86%;
+        right: 62.21%;
+        top: 63.68%;
+        bottom: 9.77%;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 26px;
+        color: #FFFFFF;
+        width: 500px;
+    }
+    .accsub-2{
+        background-image: url(/img/hci.jpeg);
+        background-size: cover;
+        position: absolute;
+        height: 78px;
+        width: 120px;
+        left: 20px;
+        top: 12px;
+        border-radius: 14px;
+    }
+    .accsub82{
+        position: absolute;
+        top: 38px;
+        left: 118px;
+    }
+    .accsub85{
+        position: absolute;
+        top: 38px;
+        left: 245px;
+    }
+    .newsfedy{
+        position: absolute;
+        width: 398px;
+        height: 320px;
+        left: 16px;
+        top: 280px;
+        background: linear-gradient(180deg, #A0153E 14.98%, #00224D 15.02%, #00224D 16.38%);
+        filter: drop-shadow(0px -1px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius:14px 14px 14px 14px;
+    }
+    .newsfedy p{
+        position: absolute;
+        left: 23px;
+        top: -5px;
+    }
+    .accsub-news{
+        position: absolute;
+        top: 50px;
+    }
+    .accsub-news-1{
+        position: absolute;
+        top: 135px;
+    }
+    .accsub-news-2{
+        position: absolute;
+        top: 220px;
+    }
+    .quiz{
+        background: linear-gradient(180deg, #00224D 66.48%, #A0153E 66.66%);
+        filter: drop-shadow(0px -1px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 14px;
+        position: absolute;
+        top: 65px;
+        width: 227px;
+        height: 69px;
+        right: 18px;
+    }
+    .quiz b{
+        position: absolute;
+        top: 48px;
+        left: 27px;
+        font-size: small;
+    }
+    .quiz-1{
+        background: linear-gradient(180deg, #00224D 66.48%, #A0153E 66.66%);
+        filter: drop-shadow(0px -1px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 14px;
+        position: absolute;
+        top: 155px;
+        width: 227px;
+        height: 69px;
+        right: 18px;
+    }
+    .quiz-1 b{
+        position: absolute;
+        top: 48px;
+        left: 27px;
+        font-size: small;
+    }
+    .quiz-2{
+        background: linear-gradient(180deg, #00224D 66.48%, #A0153E 66.66%);
+        filter: drop-shadow(0px -1px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 14px;
+        position: absolute;
+        top: 237px;
+        width: 227px;
+        height: 69px;
+        right: 18px;
+    }
+    .quiz-2 b{
+        position: absolute;
+        top: 48px;
+        left: 27px;
+        font-size: small;
+    }
+    .acs{
+        position: absolute;
+        width: 197px;
+        height: 136px;
+        left: 16px;
+        top: 613px;
+        background: #00224D;
+        border-radius: 14px;
+    }
+
+    .annouce{
+        position: absolute;
+        top: 20px;
+    }
+    .annouce a{
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        left: 60px;
+    }
+    .annouce-2 img{
+        position: absolute;
+        left: -45px;
+        top: -7px;
+        width: 37px;
+        height: auto;
+    }
+
+    .chat{
+        position: absolute;
+        top: 60px;
+    }
+    .chat a{
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        left: 60px;
+    }
+    .chat-2 img{
+        position: absolute;
+        left: -45px;
+        top: -7px;
+        width: 37px;
+        height: auto;
+    }
+
+    .confess{
+        position: absolute;
+        top: 90px;
+        left: -9px;
+    }
+    .confess a{
+        text-decoration: none;
+        color: white;
+        position: absolute;
+        left: 60px;
+        width: 225px;
+        font-size: 55%;
+        margin: 10px;
+    }
+    .confess-2 img{
+        position: absolute;
+        left: -45px;
+        top: -7px;
+        width: 37px;
+        height: auto;
+    }
+    .scan img{
+        position: absolute;
+        width: 136px;
+        height: 136px;
+        left: 245px;
+        top: 613px;
+        cursor: pointer;
+    }
+
+    .calendar {
+        position: absolute;
+        width: 350px;
+        height: 155px;
+        left: 30px;
+        top: 765px;
+        background: #A0153E;
+        background-color: #00224D;
+        filter: drop-shadow(0px -1px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 14px;
+        font-size: 12px;
+        font-family: 'JetBrains Mono';
+    }
+    
+    table {
+        position: absolute;
+        left: 20px;
+        width: -20px;
+        border-collapse: collapse;
+        top: 16px;
+    }
+    
+    th {
+        padding: 1px;
+        text-align: center;
+        padding-left:7px;
+    }
+    
+    th:first-child {
+    }
+    
+    th:not(:first-child) {
+        cursor: pointer;
+    }
+    
+    th:hover {
+        background-color: #A0153E;
+        width: 5px;
+        height: auto;
+        border-radius: 190px;
+        text-align: center;
+        padding: 4px;
+    }
+    .calendar p{
+        position: absolute;
+        width: 15px;
+        height: 7px;
+        left: 240px;
+        top: 5px;
+    }
+    .calendar .event{
+        position: absolute;
+        width: 500px;
+        height: 7px;
+        left: 240px;
+        top: 20px;
+    }
+    .line1{
+        position: absolute;
+        width: 19px;
+        height: 0px;
+        left: 231px;
+        top: 57px;
+        border: 1px solid #A0153E;
+        transform: rotate(90deg);
+    }
+    .circle1{
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%; 
+        left: 236px;
+        top: 72px;
+        background: #FFFFFF;
+    }
+    .calendar h1{
+        position: absolute;
+        width: 100px;
+        height: 7px;
+        left: 250px;
+        top: 56.50px;
+        font-size: 15px;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 100;
+    }
+    .line2{
+        position: absolute;
+        width: 19px;
+        height: 0px;
+        left: 231px;
+        top: 95px;
+        border: 1px solid #A0153E;
+        transform: rotate(90deg);
+    }
+    .circle2{
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%; 
+        left: 236px;
+        top:110px;
+        background: #FFFFFF;
+    }
+    .calendar .pala{
+        position: absolute;
+        width: 100px;
+        height: 7px;
+        left: 250px;
+        top: 97px;
+        font-size: 15px;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 100;
+    }
+    .line3{
+        position: absolute;
+        width: 15px;
+        height: 0px;
+        left: 233.2px;
+        top: 131px;
+        border: 1px solid #A0153E;
+        transform: rotate(90deg);
+    }
+    .subjectcontain{
+        position: absolute;
+        width: 392px;
+        height: 86px;
+        left: 0px;
+        top: 72px;
+    }
+    .subjectcontain img{
+        position: absolute;
+        width: 433px;
+        right: 60x;
+    }
+    .subjectcontain b{
+        width: 117px;
+        height: 17px;
+        position: absolute;
+        font-family: 'JetBrains Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 17px;
+        top: 30px;
+        left: 20px;
+    }
+    .subjectcontain .hci12{
+        width: 300px;
+        position: absolute;
+        top: 50px;
+        left: 20px;
+    }
+    .subjectcontain .ofe{
+        width: 300px;
+        position: absolute;
+        top: 70px;
+        left: 20px;
+    }
+    .des{
+        position: absolute;
+        width: 173px;
+        height: 21px;
+        left: calc(50% - 173px/2 - 0.5px);
+        top: 195px;
+        font-weight: bold;
+    }
+    .desc{
+        box-sizing: border-box;
+        position: absolute;
+        width: 379px;
+        height: 96px;
+        left: calc(50% - 379px/2 - 0.5px);
+        top: 238px;
+        border: 1px solid #00224D;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px -1px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 14px;
+        text-align: justify;
+    }
+    .desc p{
+        font-size: 10px;
+        margin: 10px;
+    }
+    .dashbo{
+    position: absolute;
+    width: 220px;
+    height: 581px;
+    left: 215px;
+    top: 351px;
+    background: #00224D;
+    border-radius: 14px 0px 0px 0px;
+    }
+    .dashbo b{
+    position: absolute;
+    width: 87px;
+    height: 21px;
+    left: 23px;
+    top: 20px;
+    font-size: 16px;
+    }
+    .dashbo .exam{
+    position: absolute;
+    left: 35px;
+    top: 50px;
+    }
+    .dashbo  .exam-list{
+        position: absolute;
+        left: 8%;
+        top: 15%;
+        bottom: 0%;
+        height: 100px;
+        width: 186px;
+        background: #A0153E;
+        border-radius: 14px;        
+    }
+    .exlist p{
+        position: flex;
+        margin: 10px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+    .dashbo  .quiz-list{
+        position: absolute;
+        left: 8%;
+        top: 38%;
+        bottom: 0%;
+        height: 100px;
+        width: 186px;
+        background: #A0153E;
+        border-radius: 14px;       
+    }
+    .dashbo .quiz1{
+        position: absolute;
+        left: 35px;
+        top: 195px;
+    }
+    .dashbo .act1{
+        position: absolute;
+        left: 35px;
+        top: 330px;
+    }
+    .dashbo  .act1-list{
+        position: absolute;
+        left: 8%;
+        top: 62%;
+        bottom: 0%;
+        height: 100px;
+        width: 186px;
+        background: #A0153E;
+        border-radius: 14px;       
+    }
+    .lectures{
+        position: absolute;
+        left: 3%;
+        top: 38%;
+        bottom: 0%;
+        height: 100px;
+        width: 180px;
+        background: #A0153E;
+        box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+        padding: 7px;
+    }
+    .lectures p{
+        position: absolute;
+        font-size: 15px;
+        top: -5px;
+    }
+    .lectures a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        top: 40px;
+    }
+    .lectures a:hover{
+        color: #00224D;
+    }
+
+    .lectures1{
+        position: absolute;
+        left: 3%;
+        top: 52%;
+        bottom: 0%;
+        height: 100px;
+        width: 180px;
+        background: #A0153E;
+        box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+        padding: 7px;
+    }
+    .lectures1 p{
+        position: absolute;
+        font-size: 15px;
+        top: -5px;
+    }
+    .lectures1 a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        top: 40px;
+    }
+    .lectures1 a:hover{
+        color: #00224D;
+    }
+
+    .lectures2{
+        position: absolute;
+        left: 3%;
+        top: 66%;
+        bottom: 0%;
+        height: 100px;
+        width: 180px;
+        background: #A0153E;
+        box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+        padding: 7px;
+    }
+    .lectures2 p{
+        position: absolute;
+        font-size: 15px;
+        top: -5px;
+    }
+    .lectures2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        top: 40px;
+    }
+    .lectures2 a:hover{
+        color: #00224D;
+    }
+
+    
+    .lectures3{
+        position: absolute;
+        left: 3%;
+        top: 80%;
+        bottom: 0%;
+        height: 100px;
+        width: 180px;
+        background: #A0153E;
+        box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+        padding: 7px;
+    }
+    .lectures3 p{
+        position: absolute;
+        font-size: 15px;
+        top: -5px;
+    }
+    .lectures3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        top: 40px;
+    }
+    .lectures3 a:hover{
+        color: #00224D;
+    }
+    .recta{
+        position: absolute;
+        width: 430px;
+        height: 70px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+        top:90px;
+        right: 1px;
+    }
+    .recta img{
+        width: 50px;
+        height: auto;
+        position: fixed;
+        left: 15px;
+    }
+    .recta p{
+        position: absolute;
+        width: 84px;
+        height: 26px;
+        left: 70.75px;
+        top: -2px;
+        font-size: larger;
+        font-family: 'JetBrains Mono';
+    }
+    .announce-post{
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 18%;
+        height: 170px;
+        bottom: 0%;
+        background: #00224D;
+        box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+        margin: 15px;
+    }
+    .postannou b{
+        position: absolute;
+        margin: 20px;
+        top: -1px;
+    }
+    .postannou p{
+        position: absolute;
+        margin: 20px;
+        top: 25px;
+    }
+    .postannou .goodfe{
+        position: absolute;
+        margin: 20px;
+        top: 49px;
+        text-align: justify;
+        font-size: small;
+        margin: 20px;
+    }
+    .postannou .posti{
+        position: absolute;
+        margin: 20px;
+        top: 110px;
+        text-align: justify;
+        font-size: small;
+        margin: 20px;
+    }
+
+
+    .announce-post-1{
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 38%;
+        height: 170px;
+        bottom: 0%;
+        background: #00224D;
+        box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+        margin: 15px;
+    }
+
+    .postannou-1 b{
+        position: absolute;
+        margin: 20px;
+        top: -1px;
+    }
+    .postannou-1 p{
+        position: absolute;
+        margin: 20px;
+        top: 25px;
+    }
+    .postannou-1 .goodfe{
+        position: absolute;
+        margin: 20px;
+        top: 49px;
+        text-align: justify;
+        font-size: small;
+        margin: 20px;
+    }
+    .postannou-1 .posti{
+        position: absolute;
+        margin: 20px;
+        top: 110px;
+        text-align: justify;
+        font-size: small;
+        margin: 20px;
+    }
+
+    
+
+    .announce-post-2{
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 58%;
+        height: 170px;
+        bottom: 0%;
+        background: #00224D;
+        box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+        margin: 15px;
+    }
+    .postannou-2 b{
+        position: absolute;
+        margin: 20px;
+        top: -1px;
+    }
+    .postannou-2 p{
+        position: absolute;
+        margin: 20px;
+        top: 25px;
+    }
+    .postannou-2 .goodfe{
+        position: absolute;
+        margin: 20px;
+        top: 49px;
+        text-align: justify;
+        font-size: small;
+        margin: 20px;
+    }
+    .postannou-2 .posti{
+        position: absolute;
+        margin: 20px;
+        top: 110px;
+        text-align: justify;
+        font-size: small;
+        margin: 20px;
+    }
+
+    .announce-post-3{
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 78%;
+        height: 170px;
+        bottom: 0%;
+        background: #00224D;
+        box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+        margin: 15px;
+    }
+    .postannou-3 b{
+        position: absolute;
+        margin: 20px;
+        top: -1px;
+    }
+    .postannou-3 p{
+        position: absolute;
+        margin: 20px;
+        top: 25px;
+    }
+    .postannou-3 .goodfe{
+        position: absolute;
+        margin: 20px;
+        top: 49px;
+        text-align: justify;
+        font-size: small;
+        margin: 20px;
+    }
+    .postannou-3 .posti{
+        position: absolute;
+        margin: 20px;
+        top: 110px;
+        text-align: justify;
+        font-size: small;
+        margin: 20px;
+    }
+    .back{
+        position: absolute;
+        width: 84px;
+        height: 26px;
+        left: 15px;
+        top: 55px;
+        font-family: 'JetBrains Mono';
+    }
+    .back p{
+        position: absolute;
+        width: 270px;
+        height: 26px;
+        left: 60.75px;
+        top: -5px;
+        font-size: larger;
+    }
+    .back img{
+        width: 50px;
+        height: auto;
+    }
+    .stcowa{
+        position: absolute;
+        width: 371px;
+        height: 257px;
+        left: 0px;
+        top: 100px;
+        margin: 25px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+    }
+    .anbut{
+        margin: 20px;
+        color: black;
+    }
+    .anbut p{
+        color: black;
+        font-size: large;
+        font-weight: bold;
+    }
+    .anbut button{
+        position: absolute;
+        top: 14px;
+        left: 300px;
+        background-color: #00224D;
+        color: white;
+        padding: 10px 10px;
+        border-radius: 14px;
+        border: none;
+        cursor: pointer;
+    }
+    .anbut button:hover{
+        background-color: #A0153E;
+    }
+    .anbut input{
+        height: 170px;
+        width: 320px;
+        top: 65px;
+        position: absolute;
+    }
+
+    .stuconfepos{
+        position: absolute;
+        width: 371px;
+        height: 100px;
+        left: 0px;
+        top: 380px;
+        margin: 25px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+    }
+    .stuconfepos p{
+        color: black;
+        margin: 30px;
+        position: absolute;
+        top: 1px;
+        font-weight: bold;
+    }
+    .stuconfepos b{
+        color: rgba(0, 0, 0, 0.514);
+        margin: 30px;
+        position: absolute;
+        top: 35px;
+        font-weight: bold;
+    }
+    .stuconfepos-1{
+        position: absolute;
+        width: 371px;
+        height: 105px;
+        left: 0px;
+        top: 500px;
+        margin: 25px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+    }
+    .stuconfepos-1 p{
+        color: black;
+        margin: 30px;
+        position: absolute;
+        top: 1px;
+        font-weight: bold;
+    }
+    .stuconfepos-1 b{
+        color: rgba(0, 0, 0, 0.514);
+        margin: 30px;
+        position: absolute;
+        top: 40px;
+        font-weight: bold;
+    }
+    .chase{
+        position: absolute;
+        width: 435px;
+        height: 175px;
+        left: 0px;
+        top: 16px;
+        background: #00224D;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+    }
+    .chase .recta {
+        position: absolute;
+        top: 70px;
+        box-shadow: none;
+    }
+    .chase .recta img{
+        position: absolute;
+    }
+    .chase .search-bar {
+        flex: 1;
+        margin: 10px;
+        position: absolute;
+        width: 70px;
+        top: 120px;
+        left: 16px;
+    }
+     .chase  .search-bar input {
+        width: 520%;
+        height: 8px;
+        padding: 10px;
+        border: none;
+        background: #00224D;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 8.6px rgba(0, 0, 0, 0.5);
+        border-radius: 12px;
+        color: white;
+        font-family: "JetBrains Mono", monospace;
+    }
+    .chase-1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 20px;
+        padding: 20px;
+        position: absolute;
+        width: 398px;
+        height: 776px;
+        left: -3px;
+        top: 175px;
+
+    }
+    .chat .chat-list img{
+        height: auto;
+        width: 65px;
+        position: absolute;
+    }
+    .chat{
+        text-decoration: none;
+        color: white;
+        position: absolute;
+    }
+    .chat .chat-list b{
+        position: absolute;
+        left: 89px;
+        width: 300px;
+        top: 21px;
+        font-size: 19px;
+    }
+    .chase-3{
+        position: absolute;
+        top: 10%;
+    }
+    .chase-4{
+        position: absolute;
+        top: 20%;
+    }
+    .chase-5{
+        position: absolute;
+        top: 30%;
+    }
+    .chase-6{
+        position: absolute;
+        top: 40%;
+    }
+    .chase-7{
+        position: absolute;
+        top: 50%;
+    }
+    .chase-8{
+        position: absolute;
+        top: 60%;
+    }
+    .chase-9{
+        position: absolute;
+        top: 70%;
+    }
+    .cohed .recta{
+        background-color: #00224D;
+        position: fixed;
+        top: 0%;
+        width: 100%;
+        left: 0%;
+        margin: 0px;
+        border-radius: 0px 0px 14px 14px ;
+        height: 60px;
+    }
+    .cohed p{
+        width: 500px;
+    }
+    .mess-1{
+        position: absolute;
+        top: 10%;
+        bottom: 83.77%;
+        width: 90%;
+        height: 8%;
+        background: #ffffff;
+        border-radius: 14px 14px 0px 14px;
+    }
+    .mess-1 , .mess-2 p{
+        font-family: "JetBrains Mono", monospace;
+        color: rgb(255, 255, 255);
+        color: black;
+        padding: 5px;
+        margin: 5px;
+        font-weight: bolder;
+    }
+    .mess-1 , .mess-2{
+        margin: 10px;
+    }
+    .mess-2{
+        position: absolute;
+        top: 21%;
+        bottom: 83.77%;
+        width: 90%;
+        height: 8%;
+        background: #ffffff;
+        border-radius: 14px 14px 14px 0px;
+    }
+    .coin input{
+        position: fixed;
+        width: 99%;
+        height: 50px;
+        left: -1px;
+        top: 877px;
+        background-color: #00224D;
+        color: white;
+        border-radius: 0px 0px 14px 0px;
+    }
+     .submit {
+        width: 1in;
+        height: 1in;
+        background-image: url(/img/icon/sent.svg);
+        background-size: cover;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        top: 91%;
+        background-color: transparent;
+    } 
+
+
+}
